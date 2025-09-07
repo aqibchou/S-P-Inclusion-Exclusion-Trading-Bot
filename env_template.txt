@@ -1,0 +1,46 @@
+# Enhanced News Detection System Environment Variables
+# Copy this file to .env and fill in your actual API keys
+
+# Financial Modeling Prep (Premium API)
+# Get your key at: https://financialmodelingprep.com/developer
+FMP_API_KEY=your_fmp_api_key_here
+
+# Alpha Vantage (Premium API)
+# Get your key at: https://www.alphavantage.co/support/#api-key
+ALPHA_VANTAGE_KEY=your_alpha_vantage_key_here
+
+# Polygon.io (Premium API)
+# Get your key at: https://polygon.io/
+POLYGON_KEY=your_polygon_key_here
+
+# Finnhub (Premium API)
+# Get your key at: https://finnhub.io/
+FINNHUB_KEY=your_finnhub_key_here
+
+# Reddit API (Free with registration)
+# Get your keys at: https://www.reddit.com/prefs/apps
+REDDIT_CLIENT_ID=your_reddit_client_id_here
+REDDIT_CLIENT_SECRET=your_reddit_client_secret_here
+
+# Twitter API v2 (Premium)
+# Get your keys at: https://developer.twitter.com/
+TWITTER_BEARER_TOKEN=your_twitter_bearer_token_here
+TWITTER_API_KEY=your_twitter_api_key_here
+TWITTER_API_SECRET=your_twitter_api_secret_here
+
+# Discord Webhooks
+# Add your Discord webhook URLs separated by commas
+DISCORD_WEBHOOK_URLS=https://discord.com/api/webhooks/your_webhook_1,https://discord.com/api/webhooks/your_webhook_2
+
+# External Webhooks
+# Add any external webhook URLs for notifications
+WEBHOOK_URLS=https://your-webhook-url.com/endpoint
+
+# Database (Optional)
+# If you want to store events in a database
+DATABASE_URL=postgresql://username:password@localhost:5432/news_events
+
+# Development Settings
+# Set to 'true' to enable debug mode
+DEBUG_MODE=false
+TEST_MODE=false
