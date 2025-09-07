@@ -1,0 +1,18 @@
+# IBKR Trading Integration Requirements
+pandas>=1.3.0
+numpy>=1.21.0
+yfinance>=0.1.70
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+schedule>=1.1.0
+
+# Interactive Brokers API (Official)
+# Note: This requires IBKR TWS or Gateway to be running
+# pip install ibapi
+
+# Alternative: Use ib_insync for easier integration
+# pip install ib_insync
+
+# For production deployment
+python-dotenv>=0.19.0
+psutil>=5.8.0
